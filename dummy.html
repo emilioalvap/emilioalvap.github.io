@@ -3,7 +3,7 @@
     const tk = ['66821310527017614849367100463402775847', '130366915630420135464569193873083343018', '-158967366143315596817967628237655940964'
                ,'-43707107139095600958610464308625015668', '-18460411829625371321806694445278462779'];
     
-    await Promise.all(tk.map( item => {
+    Promise.all(tk.map( item => {
         const formData = new FormData();
         formData.append('userId', '25bc2fa67a8836d84866577423f12349d27b6c34');
         formData.append('csrfToken', item);
