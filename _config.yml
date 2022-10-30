@@ -1,1 +1,1 @@
-include: ['_headers']
+include: ['_headers, style.css']
